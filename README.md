@@ -1,6 +1,6 @@
 ![Banner](banner.png)
 
-# xtts-server-macOS
+# XTTS-Server-MacOS-Guide
 Install xtts-server guide for macOS: https://github.com/daswer123/xtts-api-server && https://docs.sillytavern.app/extensions/xtts/
 
 # Chromium based browser

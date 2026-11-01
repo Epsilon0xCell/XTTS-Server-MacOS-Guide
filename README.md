@@ -1,9 +1,19 @@
-![Banner](banner.png)
+![Relay station yard at dawn, the road empty in both directions](intro-banner.png)
+
+# XTTS-Server-MacOS-Guide
+
+![Post road station with the guide name painted on the gate board](banner.png)
+
+![Animated relay exchange at the station yard](scene.svg)
+
+> Tablet note: this repository holds no server code of its own. It is a guide to running the upstream project linked below, recorded from the author's own Mac.
 
 # XTTS-Server-MacOS-Guide
 Install xtts-server guide for macOS: https://github.com/daswer123/xtts-api-server && https://docs.sillytavern.app/extensions/xtts/
 
 I put this guide together from my own Mac setup, so I wrote down the pieces my machine needed rather than repeating the upstream docs at the links above. It assumes Homebrew, a zsh shell, and an Apple Silicon machine. That last part is why the Docker route further down builds an arm64 image instead of pulling a ready made one.
+
+![Road divider](sep-light.svg)
 
 # Chromium based browser
 use chromium based browsers as other browsers seem to have issues with this.
@@ -27,6 +37,8 @@ python -m xtts_api_server --streaming-mode-improve
 Platform note: the torch line above uses the cu118 CUDA wheel index, which does not match the macOS and Apple Silicon setup this guide describes. On a Mac that line needs the default torch install instead of the cu118 index. That Mac step was not run in this pass (no Mac test run here), so it is flagged, not rewritten, and the cu118 line is left as written for CUDA machines.
 
 The folders I create at the start of that block are not decoration: speakers and output are where the server expects its speaker files and its generated audio to live, and the last line is the point the whole setup builds toward, starting the server with the improved streaming mode on.
+
+![Road divider with a bamboo tablet](sep-heavy.svg)
 
 # Docker Build
 Need to build for arm64:

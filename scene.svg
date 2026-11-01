@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-label="Relay station yard: a rider exchanges a dispatch at the standing desk and leaves on a fresh horse">
+<rect x="0" y="0" width="1200" height="170" fill="#b9cfe6">
+<animate attributeName="fill" values="#b9cfe6;#d7e7f5" dur="24s" fill="freeze"/>
+</rect>
+<polygon points="0,150 300,108 620,138 900,112 1200,142 1200,190 0,190" fill="#5f7594"/>
+<rect x="898" y="82" width="46" height="12" fill="#3c3228"/>
+<polygon points="892,82 950,82 938,70 904,70" fill="#265c42"/>
+<line x1="906" y1="94" x2="906" y2="112" stroke="#3c3228" stroke-width="4"/>
+<line x1="936" y1="94" x2="936" y2="112" stroke="#3c3228" stroke-width="4"/>
+<rect x="0" y="180" width="1200" height="120" fill="#b2966e"/>
+<rect x="430" y="150" width="430" height="66" fill="#e8e0cc"/>
+<polygon points="414,152 876,152 828,120 462,120" fill="#265c42"/>
+<rect x="330" y="118" width="12" height="98" fill="#543a24"/>
+<rect x="452" y="118" width="12" height="98" fill="#543a24"/>
+<rect x="318" y="108" width="158" height="20" fill="#1c3466"/>
+<g id="clerk">
+<rect x="596" y="196" width="80" height="8" fill="#6e5032"/>
+<line x1="604" y1="204" x2="602" y2="238" stroke="#6e5032" stroke-width="5"/>
+<line x1="668" y1="204" x2="670" y2="238" stroke="#6e5032" stroke-width="5"/>
+<polygon points="560,196 576,196 580,226 556,226" fill="#1c3466"/>
+<circle cx="568" cy="186" r="9" fill="#463424"/>
+<g id="tablet">
+<rect x="606" y="182" width="34" height="10" fill="#d0b67a" stroke="#947a4a"/>
+<animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 6,-16; 6,-16; 0,0; 0,0" keyTimes="0;0.3;0.38;0.55;0.63;1" dur="36s" repeatCount="indefinite"/>
+</g>
+</g>
+<g id="trough"><polygon points="740,232 856,232 844,250 752,250" fill="#68502e"/><ellipse cx="798" cy="231" rx="58" ry="5" fill="#a8c4dc"/></g>
+<g id="rider">
+<g>
+<ellipse cx="60" cy="196" rx="46" ry="17" fill="#6a4e38"/>
+<polygon points="92,182 118,190 116,200 94,198" fill="#6a4e38"/>
+<line x1="26" y1="208" x2="26" y2="238" stroke="#6a4e38" stroke-width="6"/>
+<line x1="42" y1="208" x2="42" y2="238" stroke="#6a4e38" stroke-width="6"/>
+<line x1="78" y1="208" x2="78" y2="238" stroke="#6a4e38" stroke-width="6"/>
+<line x1="94" y1="208" x2="94" y2="238" stroke="#6a4e38" stroke-width="6"/>
+<polygon points="44,164 68,164 70,186 42,186" fill="#b22c20"/>
+<circle cx="56" cy="154" r="9" fill="#463424"/>
+<rect x="70" y="168" width="14" height="16" fill="#785428"/>
+</g>
+<animateTransform attributeName="transform" type="translate" values="-160,0; 430,0; 430,0; 640,0; 640,0; 1330,0; 1330,0" keyTimes="0;0.22;0.55;0.62;0.7;0.92;1" dur="36s" repeatCount="indefinite"/>
+</g>
+<g id="spent">
+<ellipse cx="0" cy="204" rx="40" ry="15" fill="#7d6248"/>
+<polygon points="30,192 52,202 50,210 32,206" fill="#7d6248"/>
+<line x1="-30" y1="216" x2="-30" y2="242" stroke="#7d6248" stroke-width="5"/>
+<line x1="24" y1="216" x2="24" y2="242" stroke="#7d6248" stroke-width="5"/>
+<animateTransform attributeName="transform" type="translate" values="500,0; 500,0; 900,0; 900,0" keyTimes="0;0.6;0.9;1" dur="36s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.58;0.62;1" dur="36s" repeatCount="indefinite"/>
+</g>
+<g id="steam" fill="#f7f4ee" opacity="0.75">
+<circle cx="1120" cy="252" r="6"><animate attributeName="cy" values="252;196" dur="6s" repeatCount="indefinite"/><animate attributeName="cx" values="1120;1134" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="6s" repeatCount="indefinite"/></circle>
+<circle cx="1128" cy="252" r="4"><animate attributeName="cy" values="252;204" dur="6s" begin="3s" repeatCount="indefinite"/><animate attributeName="cx" values="1128;1140" dur="6s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="6s" begin="3s" repeatCount="indefinite"/></circle>
+</g>
+<rect x="1096" y="252" width="90" height="8" fill="#6e5032"/>
+</svg>
